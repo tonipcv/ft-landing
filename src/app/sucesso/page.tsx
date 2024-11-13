@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Sucesso() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black">
@@ -12,12 +14,12 @@ export default function Sucesso() {
           <p className="text-gray-300 text-center mb-8">
             Seus dados foram enviados e processados com sucesso.
           </p>
-          <a
+          <Link
             href="/"
             className="px-6 py-3 bg-black border border-gray-800 text-white rounded-md hover:bg-gray-900 transition-colors duration-200"
           >
             Voltar ao início
-          </a>
+          </Link>
         </div>
       </div>
     </div>

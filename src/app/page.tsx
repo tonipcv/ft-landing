@@ -39,7 +39,7 @@ export default function Home() {
       } else {
         setMessage('Erro ao realizar cadastro');
       }
-    } catch (error) {
+    } catch (_) {
       setMessage('Erro ao enviar dados');
     }
   };
