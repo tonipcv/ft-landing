@@ -72,7 +72,7 @@ export default function Home() {
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           <div className="rounded-md shadow-sm space-y-4">
-            <div className="flex flex-col items-center">
+            <div>
               <label htmlFor="nome" className="block text-sm font-medium text-gray-300 mb-1">
                 Nome
               </label>
@@ -83,11 +83,11 @@ export default function Home() {
                 required
                 value={formData.nome}
                 onChange={handleChange}
-                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm text-center"
+                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
                 placeholder="Seu nome completo"
               />
             </div>
-            <div className="flex flex-col items-center">
+            <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
                 Email
               </label>
@@ -98,11 +98,11 @@ export default function Home() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm text-center"
+                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
                 placeholder="seu@email.com"
               />
             </div>
-            <div className="flex flex-col items-center">
+            <div>
               <label htmlFor="senha" className="block text-sm font-medium text-gray-300 mb-1">
                 Senha
               </label>
@@ -113,11 +113,11 @@ export default function Home() {
                 required
                 value={formData.senha}
                 onChange={handleChange}
-                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm text-center"
+                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
                 placeholder="********"
               />
             </div>
-            <div className="flex flex-col items-center">
+            <div>
               <label htmlFor="confirmarSenha" className="block text-sm font-medium text-gray-300 mb-1">
                 Confirmar Senha
               </label>
@@ -128,7 +128,7 @@ export default function Home() {
                 required
                 value={formData.confirmarSenha}
                 onChange={handleChange}
-                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm text-center"
+                className="appearance-none rounded-md relative block w-full px-3 py-2 border border-gray-800 bg-black placeholder-gray-500 text-white focus:outline-none focus:ring-gray-500 focus:border-gray-500 focus:z-10 sm:text-sm"
                 placeholder="********"
               />
             </div>
