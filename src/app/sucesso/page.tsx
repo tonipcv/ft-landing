@@ -10,7 +10,7 @@ export default function Sucesso() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold text-white mb-4">Cadastro Realizado com Sucesso!</h2>
+          <h2 className="text-2xl font-bold text-center text-white mb-4">Cadastro Realizado com Sucesso!</h2>
           <p className="text-gray-300 text-center mb-8">
             Seus dados foram enviados e processados com sucesso.
           </p>
