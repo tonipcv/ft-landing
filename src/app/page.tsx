@@ -58,8 +58,8 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <div className="w-32 h-32 relative mb-4">
             <Image
-              src="/next.svg"
-              alt="Logo"
+              src="/logo.png"
+              alt="Futuros Tech Logo"
               width={128}
               height={128}
               priority
