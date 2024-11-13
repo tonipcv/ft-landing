@@ -67,7 +67,7 @@ export default function Home() {
             />
           </div>
           <h2 className="mt-2 text-center text-3xl font-extrabold text-white">
-            Criar nova conta
+            Solicitar acesso
           </h2>
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
